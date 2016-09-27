@@ -124,7 +124,7 @@ function exportProjectFiles(name, options, exporter, kore, korehl, libraries, ta
                     compile: options.compile,
                     run: options.run,
                     debug: options.debug,
-                    cmake: options.cmake
+                    cmake_export: options.cmake_export
                 }, {
                     info: log.info,
                     error: log.error

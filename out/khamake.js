@@ -173,8 +173,9 @@ var options = [
         description: 'Use experimental SPIRV-Cross glsl mode.',
         value: false
     },
+    // TODO (DK) add cmake_build etc as well?
     {
-        full: 'cmake',
+        full: 'cmake_export',
         description: 'Export CMake build files.',
         value: false
     }

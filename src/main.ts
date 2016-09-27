@@ -137,7 +137,7 @@ async function exportProjectFiles(name: string, options: Options, exporter: KhaE
 				compile: options.compile,
 				run: options.run,
 				debug: options.debug,
-				cmake: options.cmake
+				cmake_export: options.cmake_export
 			},
 			{
 				info: log.info,

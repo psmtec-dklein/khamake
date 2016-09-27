@@ -31,7 +31,7 @@ export class Options {
 	ffmpeg: string;
 	krafix: string;
 	
-	cmake: boolean;
+	cmake_export: boolean;
 	noproject: boolean;
 	embedflashassets: boolean;
 	compile: boolean;
