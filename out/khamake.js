@@ -172,6 +172,11 @@ var options = [
         full: 'glsl2',
         description: 'Use experimental SPIRV-Cross glsl mode.',
         value: false
+    },
+    {
+        full: 'cmake',
+        description: 'Export CMake build files.',
+        value: false
     }
 ];
 let parsedOptions = new Options_1.Options();

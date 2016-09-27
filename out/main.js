@@ -123,7 +123,8 @@ function exportProjectFiles(name, options, exporter, kore, korehl, libraries, ta
                     visualstudio: options.visualstudio,
                     compile: options.compile,
                     run: options.run,
-                    debug: options.debug
+                    debug: options.debug,
+                    cmake: options.cmake
                 }, {
                     info: log.info,
                     error: log.error
